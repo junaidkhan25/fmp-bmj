@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+     <style>
+        .myModal {
+            min-width: 60% !important;
+        }
+    </style>
+
+</head>
+
+<body>
+           <!------------------------------ nav bar -------------------------------------->
+
+  <div class="top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand text-warning px-5 font-italic" href="#">Talha Autos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-warning px-5 " href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-warning px-5  dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+              <a class="dropdown-item" href="./index.html">Interior</a>
+              <a class="dropdown-item" href="Lights.html">Lights</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning px-5 " href="./features.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning px-5 " href="./contactus.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+ 
+    <!------------------------------------------------ CARDS ------------------------------------------>
+    <!-- Button trigger modal -->
+
+
+    <h1 class="text-center"> Interior</h1>
+    <div class="container mb-5">
+    <section class="row m-0">
+
+        <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637081204932710032.jpg"
+                      class="card-img-top " width="250" height="250" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 5000</h5>
+                      <p class="card-text font-weight-bold" >Car Back Seat Air Inflatable Mattress Portable Bed Blue</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637081204932710032.jpg'  , 'RS 5000','Car Back Seat Air Inflatable Mattress Portable Bed Blue')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636634647653795065.jpg"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 3999</h5>
+                      <p class="card-text font-weight-bold">Car Back Seat Air Inflatable Mattress Portable Bed Black</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636634647653795065.jpg'  , 'car 2','Car Back Seat Air Inflatable Mattress Portable Bed Black')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636441139335433098-478084_1.jpg"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 800</h5>
+                      <p class="card-text font-weight-bold"> Car Seat Back Lumbar Cushion Pillows | Back Support Dropship</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636441139335433098-478084_1.jpg'  , 'RS 800','Universal Backrest Each - Black | Car Seat Back Lumbar Cushion Pillows | Back Rest Memory Cotton Office Chair Back Support Dropship')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636946586240153710.jpg"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 500</h5>
+                      <p class="card-text font-weight-bold">Toyota Seat Belt Clips Metal Double Buckle Multi Color - Each</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636946586240153710.jpg'  , 'RS 500','Toyota Seat Belt Clips Metal Double Buckle Multi Color - Each')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+           
+        <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637826900260766226.721.jpg"
+                      class="card-img-top " width="250" height="250" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 1999</h5>
+                      <p class="card-text font-weight-bold">Back Seat Organizer Car Caddy in Leather Coffee Storage Pockets Bag</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637826900260766226.721.jpg'  , 'RS 1999','Back Seat Organizer Car Caddy in Leather Coffee | Universal Storage Pockets Bag')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+            <div class="card" style="width: 100%;">
+                <img src="https://static-01.daraz.pk/p/cfcf0d662657213c76ce2d3f64fa58a3.jpg"
+                    class="card-img-top " width="250" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">RS 499</h5>
+                    <p class="card-text font-weight-bold">Car Air Freshener Solar Automatic Rotating Double Ring Suspension </p>
+                    <button class="btn btn-primary" data-toggle="modal"
+                        onclick="openModal('https://static-01.daraz.pk/p/cfcf0d662657213c76ce2d3f64fa58a3.jpg'  , 'RS 499','Car Air Freshener Solar Automatic Rotating Double Ring Suspension - Dancing Double Ring')"
+                        data-target="#productModal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+  
+
+        <div class="mb-4 col-sm-6 col-md-4">
+          <div class="card" style="width: 100%;">
+              <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637493531045235267.jpg"
+                  class="card-img-top " width="250" height="250" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">RS 2000</h5>
+                  <p class="card-text font-weight-bold">KIA Sportage Interior Protection Mats Black Dashmats - Model 2019-2021</p>
+                  <button class="btn btn-primary" data-toggle="modal"
+                      onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/637493531045235267.jpg'  , 'RS 2000','KIA Sportage Interior Protection Mats Black Dashmats - Model 2019-2021')"
+                      data-target="#productModal">Buy Now</button>
+              </div>
+          </div>
+      </div>
+      <div class="mb-4 col-sm-6 col-md-4">
+        <div class="card" style="width: 100%;">
+            <img src="https://static-01.daraz.pk/p/0c9a97a538b9ac5fc974ea2b3148aac0.jpg"
+                class="card-img-top " width="250" height="250" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">RS 499</h5>
+                <p class="card-text font-weight-bold">6 Pcs Cute Emoji Mini Shaking Head Car Ornament Dolls Funny Smile Face</p>
+                <button class="btn btn-primary" data-toggle="modal"
+                    onclick="openModal('https://static-01.daraz.pk/p/0c9a97a538b9ac5fc974ea2b3148aac0.jpg'  , 'RS 499','6 Pcs Cute Emoji Mini Shaking Head Car Ornament Dolls Funny Smile Face')"
+                    data-target="#productModal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="mb-4 col-sm-6 col-md-4">
+      <div class="card" style="width: 100%;">
+          <img src="https://static-01.daraz.pk/p/56f9e07f6413bfecef862eb237ecefb1.jpg"
+              class="card-img-top " width="250" height="250" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">RS 700</h5>
+              <p class="card-text font-weight-bold">Flamingo Dashboard Polish – 450 ml - Car Air Freshener</p>
+              <button class="btn btn-primary" data-toggle="modal"
+                  onclick="openModal('https://static-01.daraz.pk/p/56f9e07f6413bfecef862eb237ecefb1.jpg'  , 'RS 700','Flamingo Dashboard Polish – 450 ml')"
+                  data-target="#productModal">Buy Now</button>
+          </div>
+      </div>
+  </div>
+   -->
+  
+  
+      </section>
+  
+  
+  
+  
+  
+      <!-- Modal -->
+      <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog myModal">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Detail</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <section class="row m-0">
+                          <div class="col-sm-6 col-md-6">
+                              <img id="modalImg"
+                                  src="https://images.unsplash.com/photo-1580881647059-923632b8fd75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnQlMjBjYXJ8ZW58MHx8MHx8&w=1000&q=80"
+                                  width="100%" height="300" alt="">
+                          </div>
+                          <div class="col-sm-6 col-md-6">
+                              <h1 id="modalProductName">CAR NAME</h1>
+                              <p id="modalProductDetails">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                  Molestiae, soluta.</p>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Buy</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+     </div>
+      </section>
+    </div>
+      
+  
+      <!------------------------------------------------ footer ------------------------------------------>
+  
+      <footer class="bigfot text-white pt-5 pt-4 border " >
+        <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">company name</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tempora error sed, omnis aliquam ea asperiores 
+      facere nulla esse molestias voluptates, quidem cum, 
+      eum ducimus. Voluptatum provident vitae sint laboriosam?</p>
+    
+    </div>
+    
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">The Provider</a>
+     </p>
+     
+     <p>
+      <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+    </p>
+    
+    <p>
+      <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+    </p>
+    
+    <p>
+      <a href="#" class="text-white" style="text-decoration: none;">Bootsrap 5 alpha</a>
+    </p>
+    </div>
+     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-warning" > Useful links </h5>
+      <p>
+        <a href="#" class="text-white" style="text-decoration: none;">Your Account</a>
+      </p>
+      
+      <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Become an Affiliates</a>
+     </p>
+     
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Shipping rates</a>
+     </p>
+     
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Help</a>
+     </p>
+     </div>
+     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+       <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+       <p>
+         <i class="fas fa-home mr-3"></i>  New York,  NY 2333 , US
+       </p>
+       
+       <p>
+         <i class="  fas fa-envelope mr-3"></i>  theprovider@gmail.com
+       </p>
+     
+       <p>
+         <i class=" fas fa-phone mr-3 "></i> + 92 316357745
+       </p>
+      
+       <p>
+         <i class="    fas fa-print mr-3     "></i>      + 01 335 755 90
+       </p>
+     </div>
+    
+    </div>
+    <h6 class="mb-4">
+      <div class="row align-items-center">
+       <div class="col-md-7 col-lg-8">
+       <p> Copyrights 2022 All rights reserved by : 
+         <a href="#" style="text-decoration: none;">
+           <strong class="text-warning">The Providers</strong>
+         </a>
+       </p>
+       </div>
+         <div class="col-md-5 col-lg-4">
+           <div class="text-center text-md-right">
+             <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+             </ul>
+           </div>
+    
+         </div>
+       
+      </div>
+      </h6>
+    
+        </div>
+        </footer>
+    
+    
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  
+  
+  
+  </html>

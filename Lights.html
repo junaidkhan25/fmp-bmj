@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+     <style>
+        .myModal {
+            min-width: 60% !important;
+        }
+    </style>
+
+</head>
+
+<body>
+           <!------------------------------ nav bar -------------------------------------->
+
+  <div class="top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand text-warning px-5 font-italic " href="#">Talha Autos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-warning px-5 " href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-warning px-5  dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <a class="dropdown-item" href="./Interior.html">Interior</a>
+              <a class="dropdown-item" href="./index.html">Lights</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning px-5 " href="./features.html">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning px-5 " href="./contactus.html">Contact Us</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <!------------------------------------------------ CARDS ------------------------------------------>
+    <!-- Button trigger modal -->
+
+
+    <h1 class="text-center"> LED Lights</h1>
+    <div class="container mb-5">
+    <section class="row m-0">
+
+        <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://static-01.daraz.pk/p/eda31777c701769bb2e1d5286b25e768.jpg"
+                      class="card-img-top " width="250" height="250" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 1750</h5>
+                      <p class="card-text font-weight-bold">Police Heavy Duty Red and Blue For Dashboard WIth 6 LED </p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://static-01.daraz.pk/p/eda31777c701769bb2e1d5286b25e768.jpg'  , 'RS 1750','Police Heavy Duty Red and Blue Flashers Light For Dashboard WIth 6 LED - Code S6')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://static-01.daraz.pk/p/dc9315d384721520a76c924b1ab6a92d.png"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 1500</h5>
+                      <p class="card-text font-weight-bold">Flexible 60 Cm Headlight DRL With Running Indicator - 2 PCs</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://static-01.daraz.pk/p/dc9315d384721520a76c924b1ab6a92d.png'  , 'RS 1500','Flexible 60 Cm Headlight DRL With Running Indicator - 2 PCs')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card " style="width: 100%;">
+                  <img src="https://static-01.daraz.pk/p/9ed0a987b7f6e82315898566a64d245e.jpg"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">RS 2500</h5>
+                      <p class="card-text font-weight-bold">Vocoal 2 PCS Automobile 8000LM LED Headlight Lamp S2 360 Beam Bulb </p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://static-01.daraz.pk/p/9ed0a987b7f6e82315898566a64d245e.jpg'  , 'RS 2500','Vocoal 2 PCS Automobile 8000LM LED Headlight Lamp S2 Auto Car Headlight Car Front Light 360 Beam Bulb Auto Head Light H4/HB2/9003')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636499876724018750.jpg"
+                      width="250" height="250" class="card-img-top " alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Car 4</h5>
+                      <p class="card-text font-weight-bold">A6 LED HID For Head Lights | Headlamps | Car Front Light - 9005</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://www.sehgalmotors.pk/images/ProductImages/Products265x265/636499876724018750.jpg'  , 'car 4','A6 LED HID For Head Lights | Headlamps | Car Front Light - 9005')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+           
+        <div class="mb-4 col-sm-6 col-md-4">
+              <div class="card" style="width: 100%;">
+                  <img src="https://static-01.daraz.pk/p/039e08f701e6aa9c87f44e3f49a51857.jpg"
+                      class="card-img-top " width="250" height="250" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Car 1</h5>
+                      <p class="card-text font-weight-bold">Jeep Round Headlight 7 Inch X DRL Projector style 2 pcs Set</p>
+                      <button class="btn btn-primary" data-toggle="modal"
+                          onclick="openModal('https://static-01.daraz.pk/p/039e08f701e6aa9c87f44e3f49a51857.jpg'  , 'car 1','Jeep Round Headlight 7 Inch X DRL Projector style 2 pcs Set')"
+                          data-target="#productModal">Buy Now</button>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="mb-4 col-sm-6 col-md-4">
+            <div class="card" style="width: 100%;">
+                <img src="https://static-01.daraz.pk/p/c53857fd79c8b1392846ec0d322aeab7.jpg"
+                    class="card-img-top " width="250" height="250" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Car 1</h5>
+                    <p class="card-text font-weight-bold">Philips A500-N15-H11 Car LED Auto head light lamp</p>
+                    <button class="btn btn-primary" data-toggle="modal"
+                        onclick="openModal('https://static-01.daraz.pk/p/c53857fd79c8b1392846ec0d322aeab7.jpg'  , 'car 1','Philips A500-N15-H11 Car LED Auto head light lamp 6500K High Low Beam 50W 10000LM Fog Light Bulbs')"
+                        data-target="#productModal">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="mb-4 col-sm-6 col-md-4">
+          <div class="card" style="width: 100%;">
+              <img src="https://static-01.daraz.pk/p/f8cde0d650a3d0daf5ec8e1225b8ac94.jpg"
+                  class="card-img-top " width="250" height="250" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">RS 1000</h5>
+                  <p class="card-text font-weight-bold">2 Pcs 3.9 Inch 3 Leds Side Marker Light In  Lamp Rock Light for Trailer </p>
+                  <button class="btn btn-primary" data-toggle="modal"
+                      onclick="openModal('https://static-01.daraz.pk/p/f8cde0d650a3d0daf5ec8e1225b8ac94.jpgg'  , 'RS 1000','2 Pcs 3.9 Inch 3 Leds Truck Trailer Front Rear Led Side Marker Light Indicato Lamp Rock Light for Trailer Boat-Amber')"
+                      data-target="#productModal">Buy Now</button>
+              </div>
+          </div>
+      </div>
+      <div class="mb-4 col-sm-6 col-md-4">
+        <div class="card" style="width: 100%;">
+            <img src="https://static-01.daraz.pk/p/8c218df36d24e3afc2439643719c43c0.jpg"
+                class="card-img-top " width="250" height="250" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Car 1</h5>
+                <p class="card-text font-weight-bold"> infitary Led Headlight Bulbs For Any Car And Bike </p>
+                <button class="btn btn-primary" data-toggle="modal"
+                    onclick="openModal('https://static-01.daraz.pk/p/8c218df36d24e3afc2439643719c43c0.jpg'  , 'car 1','infitary Led Headlight Bulbs For Any Car And Bike ')"
+                    data-target="#productModal">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="mb-4 col-sm-6 col-md-4">
+      <div class="card" style="width: 100%;">
+          <img src="https://static-01.daraz.pk/p/c698882ae56a4983154336f36523b3cd.jpg"
+              class="card-img-top " width="250" height="250" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">RS 8000</h5>
+              <p class="card-text font-weight-bold">300w Xenon Hid Light For Toyota Vitz 2008 H4 12v/24v-300w</p>
+              <button class="btn btn-primary" data-toggle="modal"
+                  onclick="openModal('https://static-01.daraz.pk/p/c698882ae56a4983154336f36523b3cd.jpg'  , 'RS 8000','300w Xenon Hid Light For Toyota Vitz 2008 H4 12v/24v-300w')"
+                  data-target="#productModal">Buy Now</button>
+          </div>
+      </div>
+  </div>
+   </div>
+  
+  
+      </section>
+  
+  
+  
+  
+  
+      <!-- Modal -->
+      <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog myModal">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Product Detail</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <section class="row m-0">
+                          <div class="col-sm-6 col-md-6">
+                              <img id="modalImg"
+                                  src="https://images.unsplash.com/photo-1580881647059-923632b8fd75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BvcnQlMjBjYXJ8ZW58MHx8MHx8&w=1000&q=80"
+                                  width="100%" height="300" alt="">
+                          </div>
+                          <div class="col-sm-6 col-md-6">
+                              <h1 id="modalProductName">CAR NAME</h1>
+                              <p id="modalProductDetails">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                  Molestiae, soluta.</p>
+                          </div>
+                      </section>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Buy</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  
+     </div>
+      </section>
+    </div>
+      
+  
+      <!------------------------------------------------ footer ------------------------------------------>
+  
+      <footer class="bigfot text-white pt-5 pt-4 border " >
+        <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">company name</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tempora error sed, omnis aliquam ea asperiores 
+      facere nulla esse molestias voluptates, quidem cum, 
+      eum ducimus. Voluptatum provident vitae sint laboriosam?</p>
+    
+    </div>
+    
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">The Provider</a>
+     </p>
+     
+     <p>
+      <a href="#" class="text-white" style="text-decoration: none;">Creativity</a>
+    </p>
+    
+    <p>
+      <a href="#" class="text-white" style="text-decoration: none;">SourceFiles</a>
+    </p>
+    
+    <p>
+      <a href="#" class="text-white" style="text-decoration: none;">Bootsrap 5 alpha</a>
+    </p>
+    </div>
+     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-warning" > Useful links </h5>
+      <p>
+        <a href="#" class="text-white" style="text-decoration: none;">Your Account</a>
+      </p>
+      
+      <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Become an Affiliates</a>
+     </p>
+     
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Shipping rates</a>
+     </p>
+     
+     <p>
+       <a href="#" class="text-white" style="text-decoration: none;">Help</a>
+     </p>
+     </div>
+     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+       <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+       <p>
+         <i class="fas fa-home mr-3"></i>  New York,  NY 2333 , US
+       </p>
+       
+       <p>
+         <i class="  fas fa-envelope mr-3"></i>  theprovider@gmail.com
+       </p>
+     
+       <p>
+         <i class=" fas fa-phone mr-3 "></i> + 92 316357745
+       </p>
+      
+       <p>
+         <i class="    fas fa-print mr-3     "></i>      + 01 335 755 90
+       </p>
+     </div>
+    
+    </div>
+    <h6 class="mb-4">
+      <div class="row align-items-center">
+       <div class="col-md-7 col-lg-8">
+       <p> Copyrights 2022 All rights reserved by : 
+         <a href="#" style="text-decoration: none;">
+           <strong class="text-warning">The Providers</strong>
+         </a>
+       </p>
+       </div>
+         <div class="col-md-5 col-lg-4">
+           <div class="text-center text-md-right">
+             <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+             </ul>
+           </div>
+    
+         </div>
+       
+      </div>
+      </h6>
+    
+        </div>
+        </footer>
+    
+    
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+  
+  
+  
+  </html>
